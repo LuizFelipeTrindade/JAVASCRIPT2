@@ -1,6 +1,9 @@
-var repete = 1;
-
-while(repete <= 3){
-    console.log(`Mensagem:` + repete);
-    repete = repete + 1;
+var inicio = 2;
+var fim = 10;
+var todosPares = "Todos Pares: ";
+while(inicio <= fim){
+    todosPares = todosPares + inicio + ", ";
+    inicio = inicio + 2;
 }
+
+console.log(todosPares);
